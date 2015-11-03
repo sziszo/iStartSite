@@ -10,11 +10,63 @@
 		95DF97731A5609EC00C53C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97721A5609EC00C53C46 /* main.m */; };
 		95DF97761A5609EC00C53C46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97751A5609EC00C53C46 /* AppDelegate.m */; };
 		95DF97791A5609EC00C53C46 /* iStartSite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97771A5609EC00C53C46 /* iStartSite.xcdatamodeld */; };
-		95DF977C1A5609EC00C53C46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF977B1A5609EC00C53C46 /* ViewController.m */; };
 		95DF977F1A5609EC00C53C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DF977D1A5609EC00C53C46 /* Main.storyboard */; };
 		95DF97811A5609EC00C53C46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DF97801A5609EC00C53C46 /* Images.xcassets */; };
 		95DF97841A5609EC00C53C46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DF97821A5609EC00C53C46 /* LaunchScreen.xib */; };
 		95DF97901A5609EC00C53C46 /* iStartSiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF978F1A5609EC00C53C46 /* iStartSiteTests.m */; };
+		95DF97A61A56BEE000C53C46 /* MailboxFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97A51A56BEE000C53C46 /* MailboxFolder.m */; };
+		95DF97A91A56BEE100C53C46 /* Mailbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97A81A56BEE100C53C46 /* Mailbox.m */; };
+		95DF97AC1A56BEE100C53C46 /* MailboxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97AB1A56BEE100C53C46 /* MailboxMessage.m */; };
+		95DF97AF1A56BEE100C53C46 /* MailboxContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97AE1A56BEE100C53C46 /* MailboxContact.m */; };
+		95DF97B51A56C02300C53C46 /* MailboxContact+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97B21A56C02300C53C46 /* MailboxContact+ToString.m */; };
+		95DF97B61A56C02300C53C46 /* MailboxMessage+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97B41A56C02300C53C46 /* MailboxMessage+ToString.m */; };
+		95DF97B91A56C0DB00C53C46 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97B81A56C0DB00C53C46 /* Contact.m */; };
+		95DF97BC1A56C0DC00C53C46 /* ArchiveGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97BB1A56C0DC00C53C46 /* ArchiveGroup.m */; };
+		95DF97BF1A56C0DC00C53C46 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97BE1A56C0DC00C53C46 /* Employee.m */; };
+		95DF97C21A56C0DC00C53C46 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97C11A56C0DC00C53C46 /* User.m */; };
+		95DF97C51A56C0DC00C53C46 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97C41A56C0DC00C53C46 /* Person.m */; };
+		95DF97C81A56C0DC00C53C46 /* Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97C71A56C0DC00C53C46 /* Archive.m */; };
+		95DF97CB1A56C0DC00C53C46 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97CA1A56C0DC00C53C46 /* Company.m */; };
+		95DF97CE1A56C0DC00C53C46 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97CD1A56C0DC00C53C46 /* Project.m */; };
+		95DF97D11A56C0DC00C53C46 /* ContactEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97D01A56C0DC00C53C46 /* ContactEmail.m */; };
+		95DF97D71A56C0FB00C53C46 /* Company+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97D41A56C0FB00C53C46 /* Company+Format.m */; };
+		95DF97D81A56C0FB00C53C46 /* Person+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97D61A56C0FB00C53C46 /* Person+Format.m */; };
+		95DF97DD1A5A809C00C53C46 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97DC1A5A809C00C53C46 /* MenuViewController.m */; };
+		95DF97E91A5A972100C53C46 /* ArchivedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97E11A5A972100C53C46 /* ArchivedViewController.m */; };
+		95DF97EC1A5A972100C53C46 /* RejectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97E71A5A972100C53C46 /* RejectedViewController.m */; };
+		95DF97EF1A5A972B00C53C46 /* MailboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97EE1A5A972B00C53C46 /* MailboxViewController.m */; };
+		95DF97F21A5A981600C53C46 /* ArchiveEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97F11A5A981600C53C46 /* ArchiveEditorViewController.m */; };
+		95DF97F51A5A984300C53C46 /* ArchiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97F41A5A984300C53C46 /* ArchiveDetailViewController.m */; };
+		95DF97FA1A5A98FD00C53C46 /* ArchiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97F71A5A98FD00C53C46 /* ArchiveCell.m */; };
+		95DF97FB1A5A98FD00C53C46 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97F91A5A98FD00C53C46 /* MessageCell.m */; };
+		95DF97FE1A5A990900C53C46 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF97FD1A5A990900C53C46 /* ReportViewController.m */; };
+		95DF98041A5A997100C53C46 /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98011A5A997100C53C46 /* NSDate+FormattedStrings.m */; };
+		95DF98051A5A997100C53C46 /* NSSet+BIPO.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98031A5A997100C53C46 /* NSSet+BIPO.m */; };
+		95DF98141A5A9E8B00C53C46 /* CompanyReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98081A5A9E8B00C53C46 /* CompanyReport.m */; };
+		95DF98151A5A9E8B00C53C46 /* DefaultReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF980A1A5A9E8B00C53C46 /* DefaultReport.m */; };
+		95DF98161A5A9E8B00C53C46 /* EmployeeReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF980C1A5A9E8B00C53C46 /* EmployeeReport.m */; };
+		95DF98171A5A9E8B00C53C46 /* PersonReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF980E1A5A9E8B00C53C46 /* PersonReport.m */; };
+		95DF98181A5A9E8B00C53C46 /* ProjectReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98101A5A9E8B00C53C46 /* ProjectReport.m */; };
+		95DF98191A5A9E8B00C53C46 /* ReportFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98131A5A9E8B00C53C46 /* ReportFactory.m */; };
+		95DF981E1A5A9FEB00C53C46 /* ApplicationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF981C1A5A9FEB00C53C46 /* ApplicationSettings.m */; };
+		95DF98291A5AAE4100C53C46 /* MailboxFolderWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98221A5AAE4100C53C46 /* MailboxFolderWorker.m */; };
+		95DF982A1A5AAE4100C53C46 /* MailboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98241A5AAE4100C53C46 /* MailboxManager.m */; };
+		95DF982B1A5AAE4100C53C46 /* MailboxMessageArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98261A5AAE4100C53C46 /* MailboxMessageArchiver.m */; };
+		95DF982C1A5AAE4100C53C46 /* MailboxSynchronizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98281A5AAE4100C53C46 /* MailboxSynchronizer.m */; };
+		95DF983B1A5BED8200C53C46 /* ImporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF983A1A5BED8200C53C46 /* ImporterViewController.m */; };
+		95DF983E1A5BEDD200C53C46 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF983D1A5BEDD200C53C46 /* SettingsViewController.m */; };
+		95DF98431A5BEE4B00C53C46 /* DataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF98411A5BEE4B00C53C46 /* DataImporter.m */; };
+		95DF984B1A5BF47400C53C46 /* companies_orig.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF984A1A5BF47400C53C46 /* companies_orig.json */; };
+		95DF98561A5BF4C200C53C46 /* companies.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF984D1A5BF4C200C53C46 /* companies.json */; };
+		95DF98571A5BF4C200C53C46 /* employees_orig.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF984E1A5BF4C200C53C46 /* employees_orig.json */; };
+		95DF98581A5BF4C200C53C46 /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF984F1A5BF4C200C53C46 /* employees.json */; };
+		95DF98591A5BF4C200C53C46 /* persons_orig.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98501A5BF4C200C53C46 /* persons_orig.json */; };
+		95DF985A1A5BF4C200C53C46 /* persons.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98511A5BF4C200C53C46 /* persons.json */; };
+		95DF985B1A5BF4C200C53C46 /* projects_1_orig.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98521A5BF4C200C53C46 /* projects_1_orig.json */; };
+		95DF985C1A5BF4C200C53C46 /* projects_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98531A5BF4C200C53C46 /* projects_1.json */; };
+		95DF985D1A5BF4C200C53C46 /* users_orig.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98541A5BF4C200C53C46 /* users_orig.json */; };
+		95DF985E1A5BF4C200C53C46 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 95DF98551A5BF4C200C53C46 /* users.json */; };
+		B33C33C662DA432923A0E86D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6FB7924F80B8A9F04C9421 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +80,119 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A704DE95E38AD9817E0877 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6FB7924F80B8A9F04C9421 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DF976D1A5609EC00C53C46 /* iStartSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iStartSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DF97711A5609EC00C53C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DF97721A5609EC00C53C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95DF97741A5609EC00C53C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95DF97751A5609EC00C53C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95DF97781A5609EC00C53C46 /* iStartSite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iStartSite.xcdatamodel; sourceTree = "<group>"; };
-		95DF977A1A5609EC00C53C46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		95DF977B1A5609EC00C53C46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		95DF977E1A5609EC00C53C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95DF97801A5609EC00C53C46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95DF97831A5609EC00C53C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		95DF97891A5609EC00C53C46 /* iStartSiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStartSiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DF978E1A5609EC00C53C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DF978F1A5609EC00C53C46 /* iStartSiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iStartSiteTests.m; sourceTree = "<group>"; };
+		95DF97A41A56BEE000C53C46 /* MailboxFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxFolder.h; sourceTree = "<group>"; };
+		95DF97A51A56BEE000C53C46 /* MailboxFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxFolder.m; sourceTree = "<group>"; };
+		95DF97A71A56BEE100C53C46 /* Mailbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mailbox.h; sourceTree = "<group>"; };
+		95DF97A81A56BEE100C53C46 /* Mailbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mailbox.m; sourceTree = "<group>"; };
+		95DF97AA1A56BEE100C53C46 /* MailboxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxMessage.h; sourceTree = "<group>"; };
+		95DF97AB1A56BEE100C53C46 /* MailboxMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxMessage.m; sourceTree = "<group>"; };
+		95DF97AD1A56BEE100C53C46 /* MailboxContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxContact.h; sourceTree = "<group>"; };
+		95DF97AE1A56BEE100C53C46 /* MailboxContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxContact.m; sourceTree = "<group>"; };
+		95DF97B11A56C02300C53C46 /* MailboxContact+ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MailboxContact+ToString.h"; sourceTree = "<group>"; };
+		95DF97B21A56C02300C53C46 /* MailboxContact+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MailboxContact+ToString.m"; sourceTree = "<group>"; };
+		95DF97B31A56C02300C53C46 /* MailboxMessage+ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MailboxMessage+ToString.h"; sourceTree = "<group>"; };
+		95DF97B41A56C02300C53C46 /* MailboxMessage+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MailboxMessage+ToString.m"; sourceTree = "<group>"; };
+		95DF97B71A56C0DB00C53C46 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		95DF97B81A56C0DB00C53C46 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		95DF97BA1A56C0DC00C53C46 /* ArchiveGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveGroup.h; sourceTree = "<group>"; };
+		95DF97BB1A56C0DC00C53C46 /* ArchiveGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveGroup.m; sourceTree = "<group>"; };
+		95DF97BD1A56C0DC00C53C46 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		95DF97BE1A56C0DC00C53C46 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		95DF97C01A56C0DC00C53C46 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		95DF97C11A56C0DC00C53C46 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		95DF97C31A56C0DC00C53C46 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		95DF97C41A56C0DC00C53C46 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		95DF97C61A56C0DC00C53C46 /* Archive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archive.h; sourceTree = "<group>"; };
+		95DF97C71A56C0DC00C53C46 /* Archive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archive.m; sourceTree = "<group>"; };
+		95DF97C91A56C0DC00C53C46 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		95DF97CA1A56C0DC00C53C46 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		95DF97CC1A56C0DC00C53C46 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		95DF97CD1A56C0DC00C53C46 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		95DF97CF1A56C0DC00C53C46 /* ContactEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEmail.h; sourceTree = "<group>"; };
+		95DF97D01A56C0DC00C53C46 /* ContactEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEmail.m; sourceTree = "<group>"; };
+		95DF97D31A56C0FB00C53C46 /* Company+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Company+Format.h"; sourceTree = "<group>"; };
+		95DF97D41A56C0FB00C53C46 /* Company+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Company+Format.m"; sourceTree = "<group>"; };
+		95DF97D51A56C0FB00C53C46 /* Person+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Format.h"; sourceTree = "<group>"; };
+		95DF97D61A56C0FB00C53C46 /* Person+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Format.m"; sourceTree = "<group>"; };
+		95DF97DB1A5A809C00C53C46 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		95DF97DC1A5A809C00C53C46 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		95DF97E01A5A972100C53C46 /* ArchivedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchivedViewController.h; sourceTree = "<group>"; };
+		95DF97E11A5A972100C53C46 /* ArchivedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchivedViewController.m; sourceTree = "<group>"; };
+		95DF97E61A5A972100C53C46 /* RejectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RejectedViewController.h; sourceTree = "<group>"; };
+		95DF97E71A5A972100C53C46 /* RejectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RejectedViewController.m; sourceTree = "<group>"; };
+		95DF97ED1A5A972B00C53C46 /* MailboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxViewController.h; sourceTree = "<group>"; };
+		95DF97EE1A5A972B00C53C46 /* MailboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxViewController.m; sourceTree = "<group>"; };
+		95DF97F01A5A981600C53C46 /* ArchiveEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveEditorViewController.h; sourceTree = "<group>"; };
+		95DF97F11A5A981600C53C46 /* ArchiveEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveEditorViewController.m; sourceTree = "<group>"; };
+		95DF97F31A5A984300C53C46 /* ArchiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveDetailViewController.h; sourceTree = "<group>"; };
+		95DF97F41A5A984300C53C46 /* ArchiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveDetailViewController.m; sourceTree = "<group>"; };
+		95DF97F61A5A98FD00C53C46 /* ArchiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveCell.h; sourceTree = "<group>"; };
+		95DF97F71A5A98FD00C53C46 /* ArchiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveCell.m; sourceTree = "<group>"; };
+		95DF97F81A5A98FD00C53C46 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		95DF97F91A5A98FD00C53C46 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		95DF97FC1A5A990900C53C46 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		95DF97FD1A5A990900C53C46 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		95DF98001A5A997100C53C46 /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
+		95DF98011A5A997100C53C46 /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
+		95DF98021A5A997100C53C46 /* NSSet+BIPO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BIPO.h"; sourceTree = "<group>"; };
+		95DF98031A5A997100C53C46 /* NSSet+BIPO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BIPO.m"; sourceTree = "<group>"; };
+		95DF98071A5A9E8B00C53C46 /* CompanyReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyReport.h; sourceTree = "<group>"; };
+		95DF98081A5A9E8B00C53C46 /* CompanyReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyReport.m; sourceTree = "<group>"; };
+		95DF98091A5A9E8B00C53C46 /* DefaultReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultReport.h; sourceTree = "<group>"; };
+		95DF980A1A5A9E8B00C53C46 /* DefaultReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultReport.m; sourceTree = "<group>"; };
+		95DF980B1A5A9E8B00C53C46 /* EmployeeReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeReport.h; sourceTree = "<group>"; };
+		95DF980C1A5A9E8B00C53C46 /* EmployeeReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeReport.m; sourceTree = "<group>"; };
+		95DF980D1A5A9E8B00C53C46 /* PersonReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonReport.h; sourceTree = "<group>"; };
+		95DF980E1A5A9E8B00C53C46 /* PersonReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonReport.m; sourceTree = "<group>"; };
+		95DF980F1A5A9E8B00C53C46 /* ProjectReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectReport.h; sourceTree = "<group>"; };
+		95DF98101A5A9E8B00C53C46 /* ProjectReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectReport.m; sourceTree = "<group>"; };
+		95DF98111A5A9E8B00C53C46 /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		95DF98121A5A9E8B00C53C46 /* ReportFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportFactory.h; sourceTree = "<group>"; };
+		95DF98131A5A9E8B00C53C46 /* ReportFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportFactory.m; sourceTree = "<group>"; };
+		95DF981B1A5A9FEB00C53C46 /* ApplicationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationSettings.h; sourceTree = "<group>"; };
+		95DF981C1A5A9FEB00C53C46 /* ApplicationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationSettings.m; sourceTree = "<group>"; };
+		95DF981D1A5A9FEB00C53C46 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		95DF981F1A5AA12B00C53C46 /* iStartSite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iStartSite-Prefix.pch"; sourceTree = "<group>"; };
+		95DF98211A5AAE4100C53C46 /* MailboxFolderWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxFolderWorker.h; sourceTree = "<group>"; };
+		95DF98221A5AAE4100C53C46 /* MailboxFolderWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxFolderWorker.m; sourceTree = "<group>"; };
+		95DF98231A5AAE4100C53C46 /* MailboxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxManager.h; sourceTree = "<group>"; };
+		95DF98241A5AAE4100C53C46 /* MailboxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxManager.m; sourceTree = "<group>"; };
+		95DF98251A5AAE4100C53C46 /* MailboxMessageArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxMessageArchiver.h; sourceTree = "<group>"; };
+		95DF98261A5AAE4100C53C46 /* MailboxMessageArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxMessageArchiver.m; sourceTree = "<group>"; };
+		95DF98271A5AAE4100C53C46 /* MailboxSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailboxSynchronizer.h; sourceTree = "<group>"; };
+		95DF98281A5AAE4100C53C46 /* MailboxSynchronizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailboxSynchronizer.m; sourceTree = "<group>"; };
+		95DF98391A5BED8200C53C46 /* ImporterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImporterViewController.h; sourceTree = "<group>"; };
+		95DF983A1A5BED8200C53C46 /* ImporterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImporterViewController.m; sourceTree = "<group>"; };
+		95DF983C1A5BEDD200C53C46 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		95DF983D1A5BEDD200C53C46 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		95DF98401A5BEE4B00C53C46 /* DataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataImporter.h; sourceTree = "<group>"; };
+		95DF98411A5BEE4B00C53C46 /* DataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataImporter.m; sourceTree = "<group>"; };
+		95DF98421A5BEE4B00C53C46 /* DataImporterUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataImporterUI.h; sourceTree = "<group>"; };
+		95DF984A1A5BF47400C53C46 /* companies_orig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = companies_orig.json; path = data.test/companies_orig.json; sourceTree = "<group>"; };
+		95DF984D1A5BF4C200C53C46 /* companies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = companies.json; path = data.test/companies.json; sourceTree = "<group>"; };
+		95DF984E1A5BF4C200C53C46 /* employees_orig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = employees_orig.json; path = data.test/employees_orig.json; sourceTree = "<group>"; };
+		95DF984F1A5BF4C200C53C46 /* employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = employees.json; path = data.test/employees.json; sourceTree = "<group>"; };
+		95DF98501A5BF4C200C53C46 /* persons_orig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = persons_orig.json; path = data.test/persons_orig.json; sourceTree = "<group>"; };
+		95DF98511A5BF4C200C53C46 /* persons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = persons.json; path = data.test/persons.json; sourceTree = "<group>"; };
+		95DF98521A5BF4C200C53C46 /* projects_1_orig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = projects_1_orig.json; path = data.test/projects_1_orig.json; sourceTree = "<group>"; };
+		95DF98531A5BF4C200C53C46 /* projects_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = projects_1.json; path = data.test/projects_1.json; sourceTree = "<group>"; };
+		95DF98541A5BF4C200C53C46 /* users_orig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users_orig.json; path = data.test/users_orig.json; sourceTree = "<group>"; };
+		95DF98551A5BF4C200C53C46 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = data.test/users.json; sourceTree = "<group>"; };
+		AAFE244A93CE5B244CEBA995 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33C33C662DA432923A0E86D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +214,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A80B23334C5600B5807DDF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A704DE95E38AD9817E0877 /* Pods.debug.xcconfig */,
+				AAFE244A93CE5B244CEBA995 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4049DD07FB90E2C1679EB57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6FB7924F80B8A9F04C9421 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95DF97641A5609EB00C53C46 = {
 			isa = PBXGroup;
 			children = (
 				95DF976F1A5609EC00C53C46 /* iStartSite */,
 				95DF978C1A5609EC00C53C46 /* iStartSiteTests */,
 				95DF976E1A5609EC00C53C46 /* Products */,
+				0A80B23334C5600B5807DDF7 /* Pods */,
+				4049DD07FB90E2C1679EB57A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,12 +256,10 @@
 			children = (
 				95DF97741A5609EC00C53C46 /* AppDelegate.h */,
 				95DF97751A5609EC00C53C46 /* AppDelegate.m */,
-				95DF977A1A5609EC00C53C46 /* ViewController.h */,
-				95DF977B1A5609EC00C53C46 /* ViewController.m */,
-				95DF977D1A5609EC00C53C46 /* Main.storyboard */,
-				95DF97801A5609EC00C53C46 /* Images.xcassets */,
-				95DF97821A5609EC00C53C46 /* LaunchScreen.xib */,
-				95DF97771A5609EC00C53C46 /* iStartSite.xcdatamodeld */,
+				95DF979F1A56BE5E00C53C46 /* core */,
+				95DF97A01A56BE6700C53C46 /* model */,
+				95DF97A11A56BE7100C53C46 /* ui */,
+				95DF984C1A5BF47D00C53C46 /* resources */,
 				95DF97701A5609EC00C53C46 /* Supporting Files */,
 			);
 			path = iStartSite;
@@ -99,6 +268,7 @@
 		95DF97701A5609EC00C53C46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95DF981F1A5AA12B00C53C46 /* iStartSite-Prefix.pch */,
 				95DF97711A5609EC00C53C46 /* Info.plist */,
 				95DF97721A5609EC00C53C46 /* main.m */,
 			);
@@ -122,6 +292,223 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		95DF979F1A56BE5E00C53C46 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				95DF983F1A5BEE2000C53C46 /* data */,
+				95DF98201A5AAE2400C53C46 /* mailbox */,
+				95DF981B1A5A9FEB00C53C46 /* ApplicationSettings.h */,
+				95DF981C1A5A9FEB00C53C46 /* ApplicationSettings.m */,
+				95DF981D1A5A9FEB00C53C46 /* Enums.h */,
+				95DF98061A5A9DE200C53C46 /* reports */,
+				95DF97FF1A5A994B00C53C46 /* categories */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		95DF97A01A56BE6700C53C46 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97771A5609EC00C53C46 /* iStartSite.xcdatamodeld */,
+				95DF97A31A56BE8400C53C46 /* mailbox */,
+				95DF97A21A56BE7E00C53C46 /* bipo */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		95DF97A11A56BE7100C53C46 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				95DF977D1A5609EC00C53C46 /* Main.storyboard */,
+				95DF97821A5609EC00C53C46 /* LaunchScreen.xib */,
+				95DF97D91A5A806900C53C46 /* controllers */,
+				95DF97DA1A5A807800C53C46 /* views */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		95DF97A21A56BE7E00C53C46 /* bipo */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97D21A56C0E400C53C46 /* categories */,
+				95DF97CF1A56C0DC00C53C46 /* ContactEmail.h */,
+				95DF97D01A56C0DC00C53C46 /* ContactEmail.m */,
+				95DF97CC1A56C0DC00C53C46 /* Project.h */,
+				95DF97CD1A56C0DC00C53C46 /* Project.m */,
+				95DF97C91A56C0DC00C53C46 /* Company.h */,
+				95DF97CA1A56C0DC00C53C46 /* Company.m */,
+				95DF97C61A56C0DC00C53C46 /* Archive.h */,
+				95DF97C71A56C0DC00C53C46 /* Archive.m */,
+				95DF97C31A56C0DC00C53C46 /* Person.h */,
+				95DF97C41A56C0DC00C53C46 /* Person.m */,
+				95DF97C01A56C0DC00C53C46 /* User.h */,
+				95DF97C11A56C0DC00C53C46 /* User.m */,
+				95DF97BD1A56C0DC00C53C46 /* Employee.h */,
+				95DF97BE1A56C0DC00C53C46 /* Employee.m */,
+				95DF97BA1A56C0DC00C53C46 /* ArchiveGroup.h */,
+				95DF97BB1A56C0DC00C53C46 /* ArchiveGroup.m */,
+				95DF97B71A56C0DB00C53C46 /* Contact.h */,
+				95DF97B81A56C0DB00C53C46 /* Contact.m */,
+			);
+			name = bipo;
+			sourceTree = "<group>";
+		};
+		95DF97A31A56BE8400C53C46 /* mailbox */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97B01A56BFA400C53C46 /* categories */,
+				95DF97AD1A56BEE100C53C46 /* MailboxContact.h */,
+				95DF97AE1A56BEE100C53C46 /* MailboxContact.m */,
+				95DF97AA1A56BEE100C53C46 /* MailboxMessage.h */,
+				95DF97AB1A56BEE100C53C46 /* MailboxMessage.m */,
+				95DF97A71A56BEE100C53C46 /* Mailbox.h */,
+				95DF97A81A56BEE100C53C46 /* Mailbox.m */,
+				95DF97A41A56BEE000C53C46 /* MailboxFolder.h */,
+				95DF97A51A56BEE000C53C46 /* MailboxFolder.m */,
+			);
+			name = mailbox;
+			sourceTree = "<group>";
+		};
+		95DF97B01A56BFA400C53C46 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97B11A56C02300C53C46 /* MailboxContact+ToString.h */,
+				95DF97B21A56C02300C53C46 /* MailboxContact+ToString.m */,
+				95DF97B31A56C02300C53C46 /* MailboxMessage+ToString.h */,
+				95DF97B41A56C02300C53C46 /* MailboxMessage+ToString.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		95DF97D21A56C0E400C53C46 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97D31A56C0FB00C53C46 /* Company+Format.h */,
+				95DF97D41A56C0FB00C53C46 /* Company+Format.m */,
+				95DF97D51A56C0FB00C53C46 /* Person+Format.h */,
+				95DF97D61A56C0FB00C53C46 /* Person+Format.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		95DF97D91A5A806900C53C46 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95DF983C1A5BEDD200C53C46 /* SettingsViewController.h */,
+				95DF983D1A5BEDD200C53C46 /* SettingsViewController.m */,
+				95DF98391A5BED8200C53C46 /* ImporterViewController.h */,
+				95DF983A1A5BED8200C53C46 /* ImporterViewController.m */,
+				95DF97FC1A5A990900C53C46 /* ReportViewController.h */,
+				95DF97FD1A5A990900C53C46 /* ReportViewController.m */,
+				95DF97F31A5A984300C53C46 /* ArchiveDetailViewController.h */,
+				95DF97F41A5A984300C53C46 /* ArchiveDetailViewController.m */,
+				95DF97F01A5A981600C53C46 /* ArchiveEditorViewController.h */,
+				95DF97F11A5A981600C53C46 /* ArchiveEditorViewController.m */,
+				95DF97ED1A5A972B00C53C46 /* MailboxViewController.h */,
+				95DF97EE1A5A972B00C53C46 /* MailboxViewController.m */,
+				95DF97E01A5A972100C53C46 /* ArchivedViewController.h */,
+				95DF97E11A5A972100C53C46 /* ArchivedViewController.m */,
+				95DF97E61A5A972100C53C46 /* RejectedViewController.h */,
+				95DF97E71A5A972100C53C46 /* RejectedViewController.m */,
+				95DF97DB1A5A809C00C53C46 /* MenuViewController.h */,
+				95DF97DC1A5A809C00C53C46 /* MenuViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		95DF97DA1A5A807800C53C46 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97F61A5A98FD00C53C46 /* ArchiveCell.h */,
+				95DF97F71A5A98FD00C53C46 /* ArchiveCell.m */,
+				95DF97F81A5A98FD00C53C46 /* MessageCell.h */,
+				95DF97F91A5A98FD00C53C46 /* MessageCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		95DF97FF1A5A994B00C53C46 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				95DF98001A5A997100C53C46 /* NSDate+FormattedStrings.h */,
+				95DF98011A5A997100C53C46 /* NSDate+FormattedStrings.m */,
+				95DF98021A5A997100C53C46 /* NSSet+BIPO.h */,
+				95DF98031A5A997100C53C46 /* NSSet+BIPO.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		95DF98061A5A9DE200C53C46 /* reports */ = {
+			isa = PBXGroup;
+			children = (
+				95DF981A1A5A9E9B00C53C46 /* impl */,
+				95DF98111A5A9E8B00C53C46 /* Report.h */,
+				95DF98121A5A9E8B00C53C46 /* ReportFactory.h */,
+				95DF98131A5A9E8B00C53C46 /* ReportFactory.m */,
+			);
+			name = reports;
+			sourceTree = "<group>";
+		};
+		95DF981A1A5A9E9B00C53C46 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				95DF98071A5A9E8B00C53C46 /* CompanyReport.h */,
+				95DF98081A5A9E8B00C53C46 /* CompanyReport.m */,
+				95DF98091A5A9E8B00C53C46 /* DefaultReport.h */,
+				95DF980A1A5A9E8B00C53C46 /* DefaultReport.m */,
+				95DF980B1A5A9E8B00C53C46 /* EmployeeReport.h */,
+				95DF980C1A5A9E8B00C53C46 /* EmployeeReport.m */,
+				95DF980D1A5A9E8B00C53C46 /* PersonReport.h */,
+				95DF980E1A5A9E8B00C53C46 /* PersonReport.m */,
+				95DF980F1A5A9E8B00C53C46 /* ProjectReport.h */,
+				95DF98101A5A9E8B00C53C46 /* ProjectReport.m */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		95DF98201A5AAE2400C53C46 /* mailbox */ = {
+			isa = PBXGroup;
+			children = (
+				95DF98211A5AAE4100C53C46 /* MailboxFolderWorker.h */,
+				95DF98221A5AAE4100C53C46 /* MailboxFolderWorker.m */,
+				95DF98231A5AAE4100C53C46 /* MailboxManager.h */,
+				95DF98241A5AAE4100C53C46 /* MailboxManager.m */,
+				95DF98251A5AAE4100C53C46 /* MailboxMessageArchiver.h */,
+				95DF98261A5AAE4100C53C46 /* MailboxMessageArchiver.m */,
+				95DF98271A5AAE4100C53C46 /* MailboxSynchronizer.h */,
+				95DF98281A5AAE4100C53C46 /* MailboxSynchronizer.m */,
+			);
+			name = mailbox;
+			sourceTree = "<group>";
+		};
+		95DF983F1A5BEE2000C53C46 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				95DF98401A5BEE4B00C53C46 /* DataImporter.h */,
+				95DF98411A5BEE4B00C53C46 /* DataImporter.m */,
+				95DF98421A5BEE4B00C53C46 /* DataImporterUI.h */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		95DF984C1A5BF47D00C53C46 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				95DF97801A5609EC00C53C46 /* Images.xcassets */,
+				95DF984D1A5BF4C200C53C46 /* companies.json */,
+				95DF984E1A5BF4C200C53C46 /* employees_orig.json */,
+				95DF984F1A5BF4C200C53C46 /* employees.json */,
+				95DF98501A5BF4C200C53C46 /* persons_orig.json */,
+				95DF98511A5BF4C200C53C46 /* persons.json */,
+				95DF98521A5BF4C200C53C46 /* projects_1_orig.json */,
+				95DF98531A5BF4C200C53C46 /* projects_1.json */,
+				95DF98541A5BF4C200C53C46 /* users_orig.json */,
+				95DF98551A5BF4C200C53C46 /* users.json */,
+				95DF984A1A5BF47400C53C46 /* companies_orig.json */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +516,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95DF97931A5609EC00C53C46 /* Build configuration list for PBXNativeTarget "iStartSite" */;
 			buildPhases = (
+				E35FE9BFEBE1CD21BCA8ABD0 /* Check Pods Manifest.lock */,
 				95DF97691A5609EC00C53C46 /* Sources */,
 				95DF976A1A5609EC00C53C46 /* Frameworks */,
 				95DF976B1A5609EC00C53C46 /* Resources */,
+				255191FAEF7EDC9932E6AB78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +591,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DF985B1A5BF4C200C53C46 /* projects_1_orig.json in Resources */,
+				95DF985D1A5BF4C200C53C46 /* users_orig.json in Resources */,
 				95DF977F1A5609EC00C53C46 /* Main.storyboard in Resources */,
 				95DF97841A5609EC00C53C46 /* LaunchScreen.xib in Resources */,
+				95DF985A1A5BF4C200C53C46 /* persons.json in Resources */,
+				95DF98571A5BF4C200C53C46 /* employees_orig.json in Resources */,
+				95DF98591A5BF4C200C53C46 /* persons_orig.json in Resources */,
+				95DF98561A5BF4C200C53C46 /* companies.json in Resources */,
+				95DF985E1A5BF4C200C53C46 /* users.json in Resources */,
+				95DF985C1A5BF4C200C53C46 /* projects_1.json in Resources */,
+				95DF98581A5BF4C200C53C46 /* employees.json in Resources */,
+				95DF984B1A5BF47400C53C46 /* companies_orig.json in Resources */,
 				95DF97811A5609EC00C53C46 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +616,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255191FAEF7EDC9932E6AB78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35FE9BFEBE1CD21BCA8ABD0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95DF97691A5609EC00C53C46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DF982C1A5AAE4100C53C46 /* MailboxSynchronizer.m in Sources */,
+				95DF97B51A56C02300C53C46 /* MailboxContact+ToString.m in Sources */,
 				95DF97761A5609EC00C53C46 /* AppDelegate.m in Sources */,
+				95DF97A61A56BEE000C53C46 /* MailboxFolder.m in Sources */,
+				95DF97CE1A56C0DC00C53C46 /* Project.m in Sources */,
+				95DF97F21A5A981600C53C46 /* ArchiveEditorViewController.m in Sources */,
+				95DF98141A5A9E8B00C53C46 /* CompanyReport.m in Sources */,
+				95DF97BF1A56C0DC00C53C46 /* Employee.m in Sources */,
+				95DF983B1A5BED8200C53C46 /* ImporterViewController.m in Sources */,
 				95DF97791A5609EC00C53C46 /* iStartSite.xcdatamodeld in Sources */,
-				95DF977C1A5609EC00C53C46 /* ViewController.m in Sources */,
+				95DF982A1A5AAE4100C53C46 /* MailboxManager.m in Sources */,
+				95DF981E1A5A9FEB00C53C46 /* ApplicationSettings.m in Sources */,
+				95DF983E1A5BEDD200C53C46 /* SettingsViewController.m in Sources */,
+				95DF97D81A56C0FB00C53C46 /* Person+Format.m in Sources */,
+				95DF97D71A56C0FB00C53C46 /* Company+Format.m in Sources */,
+				95DF98051A5A997100C53C46 /* NSSet+BIPO.m in Sources */,
+				95DF97EC1A5A972100C53C46 /* RejectedViewController.m in Sources */,
+				95DF97E91A5A972100C53C46 /* ArchivedViewController.m in Sources */,
+				95DF98041A5A997100C53C46 /* NSDate+FormattedStrings.m in Sources */,
+				95DF97BC1A56C0DC00C53C46 /* ArchiveGroup.m in Sources */,
+				95DF98161A5A9E8B00C53C46 /* EmployeeReport.m in Sources */,
+				95DF97DD1A5A809C00C53C46 /* MenuViewController.m in Sources */,
+				95DF98291A5AAE4100C53C46 /* MailboxFolderWorker.m in Sources */,
+				95DF98431A5BEE4B00C53C46 /* DataImporter.m in Sources */,
+				95DF97CB1A56C0DC00C53C46 /* Company.m in Sources */,
+				95DF97C81A56C0DC00C53C46 /* Archive.m in Sources */,
+				95DF97AF1A56BEE100C53C46 /* MailboxContact.m in Sources */,
+				95DF97EF1A5A972B00C53C46 /* MailboxViewController.m in Sources */,
+				95DF98181A5A9E8B00C53C46 /* ProjectReport.m in Sources */,
+				95DF97C21A56C0DC00C53C46 /* User.m in Sources */,
+				95DF97AC1A56BEE100C53C46 /* MailboxMessage.m in Sources */,
+				95DF97FE1A5A990900C53C46 /* ReportViewController.m in Sources */,
+				95DF97B91A56C0DB00C53C46 /* Contact.m in Sources */,
+				95DF97A91A56BEE100C53C46 /* Mailbox.m in Sources */,
+				95DF97F51A5A984300C53C46 /* ArchiveDetailViewController.m in Sources */,
+				95DF97D11A56C0DC00C53C46 /* ContactEmail.m in Sources */,
+				95DF97C51A56C0DC00C53C46 /* Person.m in Sources */,
+				95DF982B1A5AAE4100C53C46 /* MailboxMessageArchiver.m in Sources */,
+				95DF97B61A56C02300C53C46 /* MailboxMessage+ToString.m in Sources */,
+				95DF97FA1A5A98FD00C53C46 /* ArchiveCell.m in Sources */,
+				95DF98171A5A9E8B00C53C46 /* PersonReport.m in Sources */,
+				95DF98191A5A9E8B00C53C46 /* ReportFactory.m in Sources */,
+				95DF98151A5A9E8B00C53C46 /* DefaultReport.m in Sources */,
 				95DF97731A5609EC00C53C46 /* main.m in Sources */,
+				95DF97FB1A5A98FD00C53C46 /* MessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +818,13 @@
 		};
 		95DF97941A5609EC00C53C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A704DE95E38AD9817E0877 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iStartSite/iStartSite-Prefix.pch";
 				INFOPLIST_FILE = iStartSite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +832,13 @@
 		};
 		95DF97951A5609EC00C53C46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFE244A93CE5B244CEBA995 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iStartSite/iStartSite-Prefix.pch";
 				INFOPLIST_FILE = iStartSite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +897,7 @@
 				95DF97951A5609EC00C53C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DF97961A5609EC00C53C46 /* Build configuration list for PBXNativeTarget "iStartSiteTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +906,7 @@
 				95DF97981A5609EC00C53C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
